@@ -18,24 +18,42 @@
             <a href="physicists.html" target="_self">Physicists</a>
         </ul>
     </nav>
-    
+
     <header>
-        <div >
+        <div>
             
-            <h1>Welcome to the Game of Nerds!</h1>
+            <h1>These are all the Physicists in the Game</h1>
         </div>
-        <h2>Let's see how many physicists you can name...</h2>
+
     </header>
 
     <main>
-        <section>
-            <button >
-                <a href='physicists.html'>START</a>
-            </button>
-            
-        </section>
+
+        <div id="game"> 
+
+            <section id="interface">
+
+                <h3> What is this person's name? </h3>
+
+                <div id="displayPhysicist"> </div>
+
+                <form id="question">
+                    Enter Name: <input id="answer" type="text">
+                    <input id="submit" type="submit">
+                </form>
+                
+            </section>
+
+        </div>
+        <button id="reset"> RESTART GAME </button>
     </main>
-       
+
+    <script src = "createPhysicists.js">
+
+        
+
+    </script>
+
 </body>
 
 </html>
